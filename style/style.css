@@ -1,0 +1,36 @@
+* {
+  margin:0
+  padding:0
+  box-sizing:border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size:14px;
+}
+
+body {
+  width: 100%;
+  min-width: 100wh;
+  background: rgb(243,243,243);
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center;
+}
+
+.instagram-wrapper{
+  display:flex;
+  align-items:center;
+  justify-content: start;
+  width:60%;
+  height: 100wh;
+}
+
+.instagram-image{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram-image img{
+  height: 50rem;
+}
